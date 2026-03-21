@@ -1,0 +1,6 @@
+body, .github-markdown-body {
+  background: #151b23;
+}
+code, .github-markdown-body code {
+  color: #eab38a !important;
+}
