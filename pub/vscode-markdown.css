@@ -1,6 +1,8 @@
 body, .github-markdown-body {
   background: #1f262f;
 }
-code, .github-markdown-body code {
-  color: #eab38a !important;
+:not(pre) > code, .github-markdown-body :not(pre) > code {
+	color: #eab38a !important;
+	background: #151b2382;
+	border: 1px solid #3e4a5954;
 }
