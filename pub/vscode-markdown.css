@@ -6,3 +6,6 @@ body, .github-markdown-body {
 	background: #151b2382;
 	border: 1px solid #3e4a5954;
 }
+.github-markdown-body h1, .github-markdown-body h2, .github-markdown-body h3, .github-markdown-body h4, .github-markdown-body h5, .github-markdown-body h6 {
+	color: #ffcc6d;
+}
