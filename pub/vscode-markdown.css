@@ -1,13 +1,18 @@
-body, .github-markdown-body {
+[data-color-mode=dark] body, .github-markdown-body {
   background: #1f262f;
 }
-.github-markdown-body :not(pre):not(a) > code {
+[data-color-mode=dark] .github-markdown-body :not(pre):not(a) > code {
 	color: #eab38a !important;
 }
-.github-markdown-body :not(pre) > code {
+[data-color-mode=dark] .github-markdown-body :not(pre) > code {
 	background: #151b2382;
 	border: 1px solid #3e4a5954;
 }
-.github-markdown-body h1, .github-markdown-body h2, .github-markdown-body h3, .github-markdown-body h4, .github-markdown-body h5, .github-markdown-body h6 {
+[data-color-mode=dark] .github-markdown-body h1,
+[data-color-mode=dark] .github-markdown-body h2,
+[data-color-mode=dark] .github-markdown-body h3,
+[data-color-mode=dark] .github-markdown-body h4,
+[data-color-mode=dark] .github-markdown-body h5,
+[data-color-mode=dark] .github-markdown-body h6 {
 	color: #ffcc6d;
 }
