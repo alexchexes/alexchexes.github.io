@@ -1,18 +1,18 @@
-[data-color-mode=dark] body, .github-markdown-body {
+[data-dark-theme=dark] body, .github-markdown-body {
   background: #1f262f;
 }
-[data-color-mode=dark] .github-markdown-body :not(pre):not(a) > code {
+[data-dark-theme=dark] .github-markdown-body :not(pre):not(a) > code {
 	color: #eab38a !important;
 }
-[data-color-mode=dark] .github-markdown-body :not(pre) > code {
+[data-dark-theme=dark] .github-markdown-body :not(pre) > code {
 	background: #151b2382;
 	border: 1px solid #3e4a5954;
 }
-[data-color-mode=dark] .github-markdown-body h1,
-[data-color-mode=dark] .github-markdown-body h2,
-[data-color-mode=dark] .github-markdown-body h3,
-[data-color-mode=dark] .github-markdown-body h4,
-[data-color-mode=dark] .github-markdown-body h5,
-[data-color-mode=dark] .github-markdown-body h6 {
+[data-dark-theme=dark] .github-markdown-body h1,
+[data-dark-theme=dark] .github-markdown-body h2,
+[data-dark-theme=dark] .github-markdown-body h3,
+[data-dark-theme=dark] .github-markdown-body h4,
+[data-dark-theme=dark] .github-markdown-body h5,
+[data-dark-theme=dark] .github-markdown-body h6 {
 	color: #ffcc6d;
 }
