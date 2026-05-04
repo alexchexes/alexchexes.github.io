@@ -1,18 +1,18 @@
-[data-dark-theme=dark] body, .github-markdown-body {
+html:has(.vscode-dark), body.vscode-dark, .github-markdown-body {
   background: #1f262f;
 }
-[data-dark-theme=dark] .github-markdown-body :not(pre):not(a) > code {
+.vscode-dark .github-markdown-body :not(pre):not(a) > code {
 	color: #eab38a !important;
 }
-[data-dark-theme=dark] .github-markdown-body :not(pre) > code {
+.vscode-dark .github-markdown-body :not(pre) > code {
 	background: #151b2382;
 	border: 1px solid #3e4a5954;
 }
-[data-dark-theme=dark] .github-markdown-body h1,
-[data-dark-theme=dark] .github-markdown-body h2,
-[data-dark-theme=dark] .github-markdown-body h3,
-[data-dark-theme=dark] .github-markdown-body h4,
-[data-dark-theme=dark] .github-markdown-body h5,
-[data-dark-theme=dark] .github-markdown-body h6 {
+.vscode-dark .github-markdown-body h1,
+.vscode-dark .github-markdown-body h2,
+.vscode-dark .github-markdown-body h3,
+.vscode-dark .github-markdown-body h4,
+.vscode-dark .github-markdown-body h5,
+.vscode-dark .github-markdown-body h6 {
 	color: #ffcc6d;
 }
