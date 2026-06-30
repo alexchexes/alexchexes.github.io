@@ -1,5 +1,5 @@
 html:has(.vscode-dark), body.vscode-dark, .vscode-dark .github-markdown-body {
-  background: #1f262f;
+  background: #292828;
 }
 .vscode-dark .github-markdown-body :not(pre):not(a) > code {
 	color: #eab38a !important;
