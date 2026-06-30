@@ -8,13 +8,20 @@ html:has(.vscode-dark), body.vscode-dark, .vscode-dark .github-markdown-body {
 	background: #151b2382;
 	border: 1px solid #3e4a5954;
 }
-.vscode-dark .github-markdown-body h1,
-.vscode-dark .github-markdown-body h2,
+
+.vscode-dark .github-markdown-body h1 {
+	color: #ffbf47;
+}
+
+.vscode-dark .github-markdown-body h2 {
+	color: #ffcc6d;
+}
+
 .vscode-dark .github-markdown-body h3,
 .vscode-dark .github-markdown-body h4,
 .vscode-dark .github-markdown-body h5,
 .vscode-dark .github-markdown-body h6 {
-	color: #ffcc6d;
+	color: #ffe1a8;
 }
 
 s {
