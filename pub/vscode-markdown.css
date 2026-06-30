@@ -17,7 +17,10 @@ html:has(.vscode-dark), body.vscode-dark, .vscode-dark .github-markdown-body {
 	color: #ffcc6d;
 }
 
-.vscode-dark .github-markdown-body h3,
+.vscode-dark .github-markdown-body h3 {
+	color: #ffd27e;
+}
+
 .vscode-dark .github-markdown-body h4,
 .vscode-dark .github-markdown-body h5,
 .vscode-dark .github-markdown-body h6 {
