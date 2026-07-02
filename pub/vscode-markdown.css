@@ -30,3 +30,9 @@ html:has(.vscode-dark), body.vscode-dark, .vscode-dark .github-markdown-body {
 s {
 	opacity: 0.7;
 }
+
+@media (max-width: 1024px) {
+	.github-markdown-body .github-markdown-content {
+	  max-width: 90vw;
+	}
+}
